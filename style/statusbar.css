@@ -1,0 +1,25 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 10px;
+}
+.status-bar_icon {
+  width: 33%;
+}
+.status-bar_icon-time {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+.battery {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wifi i {
+  margin-left: 5px;
+}
+.battery i {
+  margin-left: 5px;
+}

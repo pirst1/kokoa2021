@@ -1,0 +1,47 @@
+.friends-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+
+  background-color: #fafafa;
+}
+.friends-header i {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.friends-channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 10px 0;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@keyframes commentanimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.animation-comment {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #fae100;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  animation: commentanimation 0.2s ease-in-out forwards;
+  animation-delay: 2s;
+}

@@ -1,0 +1,48 @@
+.setting_lists {
+  margin: 40px 10px;
+}
+.setting_list-border {
+  padding-bottom: 7px;
+}
+.setting_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 0;
+}
+.setting_list-left i {
+  font-size: 25px;
+  width: 40px;
+  margin-right: 5px;
+}
+.setting_list-left {
+  font-size: 19px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.setting_list-right {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.setting_list-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.setting_list-box {
+  position: absolute;
+  top: 8px;
+  right: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  background-color: #ff6229;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 900;
+}

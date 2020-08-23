@@ -1,0 +1,24 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  align-items: center;
+  font-size: 26px;
+  padding: var(--main-padding);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.screen-header i {
+  margin-left: 15px;
+}
+.screen-header i:last-child:hover {
+  animation: coganimation 2s linear infinite;
+}
+@keyframes coganimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
