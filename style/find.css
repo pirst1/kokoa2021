@@ -1,0 +1,131 @@
+.find_icons {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.find_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 20%;
+}
+.find_icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.find_icons span {
+  text-align: center;
+}
+
+.find_recommend-top {
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 100%;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.find_recommend-bottom {
+  padding: 10px 0;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.find_recommended {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.find_open_chat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.find_open_chat_normal {
+  color: rgba(0, 0, 0, 0.5);
+}
+.find_open_chat_bold {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.find_openchat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.find_openchat h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.find_openchat h6 {
+  margin-top: 7px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.find_openchat-description {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+.find_openchat-description img {
+  margin-right: 5px;
+}
+.find-openchat-member {
+  color: rgba(0, 0, 0, 0.3);
+}
+.find-openchat-active {
+  color: rgb(255, 183, 224);
+}
+.divider {
+  width: 2px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 5px;
+}
+.find_openchat-left-img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.find_openchat-right-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+}
+.find_openchat-right {
+  position: relative;
+}
+.find-openchat-right-img-heart {
+  position: absolute;
+  padding: 6px;
+  border-radius: 10px;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+}
+.find-openchat-right-img-heart:hover i {
+  animation: heart-beat 2s linear infinite;
+  will-change: transform;
+}
+
+@keyframes heart-beat {
+  0% {
+    color: inherit;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+    color: inherit;
+    transform: none;
+  }
+}
