@@ -1,6 +1,5 @@
 #no-mobile {
   position: absolute;
-
   height: 100vh;
   background-color: #fae100;
   width: 100vw;
@@ -15,4 +14,5 @@
   #no-mobile {
     display: none;
     visibility: hidden;
+  }
 }
