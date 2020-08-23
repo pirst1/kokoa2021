@@ -1,6 +1,6 @@
 #no-mobile {
   position: absolute;
-  z-index: 99;
+
   height: 100vh;
   background-color: #fae100;
   width: 100vw;
@@ -14,5 +14,5 @@
 @media screen and (max-width: 645px) {
   #no-mobile {
     display: none;
-  }
+    visibility: hidden;
 }
